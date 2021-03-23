@@ -1,0 +1,37 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.imageupload__progress{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imageupload__input__text{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imageupload__input__file{
+    color: #6082a3;
+    background-color: transparent;
+}
+
+.imageupload__input__burron{
+    color: #6082a3;
+    background-color: #3399ff
+    ;
+}
